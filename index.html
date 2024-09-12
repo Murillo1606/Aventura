@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+    <title>Em busca da espada amaldiçoada</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" class="cena-0" alt="">
+            <p>Um historiador chamado Wally West a muito tempo ouviu falar de uma espada amaldiçoada, e depois de muitos
+                anos foi analisar está história, ao analisar ele descobriu que a espada esta no Japão. Então ele comprou
+                uma passagem e foi para lá, ao chegar lá ela já foi direto para a cidade de Azumino, e lá ele se depara
+                com duas escolhas, ir para o museu ou para o central parque, que tinha relato de avistamento da espada.
+            </p>
+            <button class="btn-proximo" data-proximo="1">Modern Art Museum</button>
+            <button class="btn-proximo" data-proximo="2">Central Park</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1.jpg" class="cena-1" alt="">
+            <p>Chegando ao museu, Wally pega uma filinha da de cara com um segurança que pede seu ingresso para entrar
+                para o museu. Mas como esperado Wally não comprou nenhum ingresso, tendo agora só duas opções.</p>
+            <button class="btn-proximo" data-proximo="3">Mentir falando que perdeu seu ingresso</button>
+            <button class="btn-proximo" data-proximo="4">Procurar outra entrada no lado de fora</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.jpg" class="cena-2" alt="">
+            <p>Chegando ao parque, Wally percebe que o local é muito maior do que ele esperava, e que para procurar a
+                espada ele precisava ser objetivo em sua procura. Oque lhe da duas opções.</p>
+            <button class="btn-proximo" data-proximo="5">Procurar alguem para pedir informação</button>
+            <button class="btn-proximo" data-proximo="6">Procurar um mapa do parque</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3.jpg" class="cena-3" alt="">
+            <p>O segunrança sem mudar muito sua expressão só diz que ou ele tem que comprar o ingresso agora ou vir um
+                outro dia.</p>
+            <button class="btn-proximo" data-proximo="7">Ir pegar a fila para comprar o ingresso</button>
+            <button class="btn-proximo" data-proximo="8">Voltar um outro dia com o ingresso comprado</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.jpg" class="cena-4" alt="">
+            <p>O Wally agradece o guarda e vai pra fora de vista do tal, e ao analisar um pouco o local ele vê uma
+                janela aberta que leva para dentro do museu.</p>
+            <button class="btn-proximo" data-proximo="9">Entrar pela janela do museu</button>
+            <button class="btn-proximo" data-proximo="8">Voltar um outro dia com o ingresso comprado</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo5.jpg" class="cena-5" alt="">
+            <p>Sem precisar procurar muito, Wally vê uma moça passando e vai até ela. Podendo perguntar oque quiser a
+                ela.</p>
+            <button class="btn-proximo" data-proximo="11">Perguntar sobre oque tem neste parque e se tem um
+                mapa</button>
+            <button class="btn-proximo" data-proximo="12">Perguntar sobre uma espada amaldiçoada</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo6.jpg" class="cena-6" alt="">
+            <p>Andando um pouco Wally encontra um mapinha do parque perto dos sanitários, vendo que tem um aquário, umas
+                quadras, uma praça,
+                área aberta.</p>
+            <button class="btn-proximo" data-proximo="13">Ir para o aquario</button>
+            <button class="btn-proximo" data-proximo="14">Ir para as quadras</button>
+            <button class="btn-proximo" data-proximo="15">Ir para a praça</button>
+            <button class="btn-proximo" data-proximo="16">Ir para a área aberta</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo7.jpg" class="cena-7" alt="">
+            <p>Após uma hora de espera Wally consegue comprar o ingresso e entrar no museu. Quando ele entra ele vê
+                várias artes muito bonitas, este museu parece ser focado em artes modernas, mas ao olhar mais
+                atentamente ele percebe que tem uma área restrita, e que no mapa do museu diz que deveria estar aberta.
+            </p>
+            <button class="btn-proximo" data-proximo="17">Tentar entrar sorrateiramente na área restrita</button>
+            <button class="btn-proximo" data-proximo="18">Perguntar para alguém sobre uma espada amaldiçoada</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo8.jpg" class="cena-8" alt="">
+            <p>Wally desiste de entrar no museu e acaba indo embora, ele vai se hospedar em um hotel. Mas na tarde
+                daquele dia, ele ouve a noticia que uma espada foi roubada do museu.</p>
+            <button class="btn-proximo" data-proximo="0">Fim</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo9.jpg" class="cena-9" alt="">
+            <p>Wally olha para um lado, olha para o outro, e pula a janela, e entra no museu. Ao entrar ele vê varias
+                artes modernas, mas nada de espada magica.</p>
+            <button class="btn-proximo" data-proximo="19">Ir na recepção e pedir um mapa das atrações do museu</button>
+            <button class="btn-proximo" data-proximo="18">Perguntar para alguem sobre uma espada amaldiçoada</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo8.jpg" class="cena-10" alt="">
+            <p>Wally desiste de entrar no museu e acaba indo embora, ele vai se hospedar em um hotel. Mas na tarde
+                daquele dia, ele ouve a noticia que uma espada foi roubada do museu.</p>
+            <button class="btn-proximo" data-proximo="0">Fim</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11.jpg" class="cena-11" alt="">
+            <p>A moça fala ao Wally que tem quadras, uma praça, áreas de piquiniqui e um aquário. E que tem um mapa
+                perto dos sanitários.</p>
+            <button class="btn-proximo" data-proximo="13">Ir para o aquario</button>
+            <button class="btn-proximo" data-proximo="14">Ir as quadras</button>
+            <button class="btn-proximo" data-proximo="15">Ir a praça</button>
+            <button class="btn-proximo" data-proximo="16">Ir a área aberta</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="cenario-passo12.jpg" class="cena-12" alt="">
+            <p>A moça que tinha um olhar solidário começa a ter um olhar confuso, e derrepente começa rir, e acaba indo
+                embora sem dizer nada.</p>
+            <button class="btn-proximo" data-proximo="6">Procurar um mapa do parque</button>
+            <button class="btn-proximo" data-proximo="8">Desistir e voltar outro dia</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="cenario-passo13.jpg" class="cena-13" alt="">
+            <p>Wally anda um pouco e chega no aquario, e ele não avista nada fora do comum por fora. Ao entrar ele só vê
+                o esperado, um aquario normal.</p>
+            <button class="btn-proximo" data-proximo="14">Ir para as quadras</button>
+            <button class="btn-proximo" data-proximo="15">Ir para a praça</button>
+            <button class="btn-proximo" data-proximo="16">Ir para a área aberta</button>
+            <button class="btn-proximo" data-proximo="8">Desistir e voltar outro dia</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="cenario-passo14.jpg" class="cena-14" alt="">
+            <p>Wally caminha no paque, e avista algumas quadras, com pessoas jogando volei, fultebool, basquete, etc.
+                Mas nada fora do normal.</p>
+            <button class="btn-proximo" data-proximo="13">Ir para o aquario</button>
+            <button class="btn-proximo" data-proximo="15">Ir para a praça</button>
+            <button class="btn-proximo" data-proximo="16">Ir para a área aberta</button>
+            <button class="btn-proximo" data-proximo="8">Desistir e voltar outro dia</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <img src="cenario-passo15.jpg" class="cena-15" alt="">
+            <p>Wally passa pelas quadras, por outro sanitário e chega ao meio do parque, e vê a pracinha, mas como o
+                esperado ou não, ele percebe tudo normal.</p>
+            <button class="btn-proximo" data-proximo="13">Ir para o aquario</button>
+            <button class="btn-proximo" data-proximo="14">Ir para as quadras</button>
+            <button class="btn-proximo" data-proximo="16">Ir para a área aberta</button>
+            <button class="btn-proximo" data-proximo="8">Desistir e voltar outro dia</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <img src="cenario-passo16.jpg" class="cena-16" alt="">
+            <p>Wally nem precisa andar muito, e chega até as áreas abertas, e só Vê pessoas de divertindo, comendo,
+                relaxando e etc. Mas nada fora do normal.</p>
+            <button class="btn-proximo" data-proximo="13">Ir para o aquario</button>
+            <button class="btn-proximo" data-proximo="14">Ir para as quadras</button>
+            <button class="btn-proximo" data-proximo="15">Ir para a praça</button>
+            <button class="btn-proximo" data-proximo="8">Desistir e voltar outro dia</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <img src="cenario-passo17.jpg" class="cena-17" alt="">
+            <p>Wally observa seu redor, e quando ninguém está olhando ele entra na sala, e se depara com ela, a espada.
+                Em um pedestal a espada amaldiçoada, e embaixo seu nome, "Kusanagi", ele se aproxima e consegue sentir
+                sua aura , mais antes de a entende-la, guardas entram e o avistam, e sem nenhum receio apontam suas
+                armas a ele, o deixando com poucas opções.</p>
+            <button class="btn-proximo" data-proximo="20">Pegar sua arma e trocar tiro com eles</button>
+            <button class="btn-proximo" data-proximo="21">Pegar a Kusanagi e os enfrentar</button>
+            <button class="btn-proximo" data-proximo="22">Se render</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <img src="cenario-passo18.jpg" class="cena-18" alt="">
+            <p>Ele chega em um moço e pergunta sobre a espada, e o homem sem mudar muito de expressão só sai dizendo
+                "Aff, de novo esses garotos idiotas.". Mas um pouco depois chegam guarda no Wally, e o pedem para os
+                acompanha-los.</p>
+            <button class="btn-proximo" data-proximo="23">Acompanha-los</button>
+            <button class="btn-proximo" data-proximo="24">Resistir</button>
+            <button class="btn-proximo" data-proximo="25">Sair correndo</button>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <img src="cenario-passo19.jpg" class="cena-19" alt="">
+            <p>Ele vai até o recepcionista, o moço o entrega o mapa do museu com as atrações. Mas ao olhar mais
+                atentamente ele percebe que tem uma área restrita, e que no mapa do museu diz que deveria estar aberta.
+            </p>
+            <button class="btn-proximo" data-proximo="17">Tentar entrar sorrateiramente na área restrita</button>
+            <button class="btn-proximo" data-proximo="18">Perguntar para alguém sobre uma espada amaldiçoada</button>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <img src="cenario-passo20.jpg" class="cena-20" alt="">
+            <p>Wally com seus reflexos treinados vai para trás de uma estátua e saca sua arma, e troca tiros com os
+                guardas. Eles fazem o mesmo, um dos guardas é baleado, oque sobra atira bem na mão de Wally fazendo
+                derrubar sua arma. O guarda chuta sua arma e atira em sua cabeça matando o grande historiador Wally
+                West.</p>
+            <button class="btn-proximo" data-proximo="0">Fim</button>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <img src="cenario-passo21.jpg" class="cena-21" alt="">
+            <p>Ele sem pensar muito pega a Kusanagi e vai para cima dos guardas, sentindo um sentimento de ódio extremo,
+                ele se torna um animal indomável. Sem muitas dificuldades ele mata os guardas, mas com um pouco de sua
+                alma bondosa, ele sabe que deve largar a Kusanagi, mas a maldição enfrentando-o o obriga a não larga-la.
+            </p>
+            <button class="btn-proximo" data-proximo="26">Lutar contra a maldição e largar a Kusanagi</button>
+            <button class="btn-proximo" data-proximo="27">Aceitar a maldição e permanecer com a Kusanagi</button>
+        </div>
+
+        <div class="passo" id="passo-22">
+            <img src="cenario-passo22.jpg" class="cena-22" alt="">
+            <p>Wally percebe sua situação e se agacha e se rende, os guardas vão até ele e o algemão, e estranhamente
+                não o guia para a saída. Eles chegam em uma sala, e lá o deixam ajuelhado e sem resentimento nenhum
+                atiram em sua cabeça, o matando.</p>
+            <button class="btn-proximo" data-proximo="0">Fim</button>
+        </div>
+
+        <div class="passo" id="passo-23">
+            <img src="cenario-passo22.jpg" class="cena-23" alt="">
+            <p>Ele é guiado a uma sala estranha e ao virar para os guardas, ele vê uma arma apontada para sua cabeça, e
+                com um piscar de olhos, sua morte estava decretada, baleado na cabeça o historiador Wally West é morto.
+            </p>
+            <button class="btn-proximo" data-proximo="0">Fim</button>
+        </div>
+
+        <div class="passo" id="passo-24">
+            <img src="cenario-passo22.jpg" class="cena-24" alt="">
+            <p>Ele resisti e tenta seguir para ver uma arte, mas do nada ele é eletrocutado e apaga em seguida. Ele
+                acorda em uma sala estranha e vê um dos guardas falando ao telefone, o outro guarda vendo que Wally
+                acordou mira em sua uma arma, e em um piscar de olho é baleado e morto.</p>
+            <button class="btn-proximo" data-proximo="0">Fim</button>
+        </div>
+        <div class="passo" id="passo-25">
+            <img src="cenario-passo22.jpg" class="cena-25" alt="">
+            <p>Wally sai correndo para a saída, esbarrando nas pessoas e do nada ele é eletrocutado e apaga em seguida.
+                Ele acorda em uma sala estranha e vê um dos guardas falando ao telefone, o outro guarda vendo que Wally
+                acordou mira em sua uma arma, e em um piscar de olho é baleado e morto.</p>
+            <button class="btn-proximo" data-proximo="0">Fim</button>
+        </div>
+
+        <div class="passo" id="passo-26">
+            <img src="cenario-passo26.jpg" class="cena-26" alt="">
+            <p>Seu coração bondoso combate as trevas da espada, as trevas o lembram de todo mal que ele sofreu, e ele
+                fraqueja, mas ele escuta risadas, sua esposa e filha rindo dele que acabara de derramar tinta nele
+                mesmo, neste momento ele vê correntes se quebrando e a Kusanagi brilha em dourado e branco, e uma paz
+                começa a emanar dela. Ao quebrar a maldição de Kusanagi ele foge do museu e vai para um hotel, depois de
+                uma semana ele volta para sua casa e para sua família. Ele guarda a Kusanagi em um lugar seguro, logo
+                após ele decide se aposentar, por ser um trabalho muito perigoso, e ele vivel feliz com sua família.</p>
+            <button class="btn-proximo" data-proximo="0">Fim!!!!!</button>
+        </div>
+
+        <div class="passo" id="passo-27">
+            <img src="cenario-passo27.jpg" class="cena-27" alt="">
+            <p>Seu coração aceita a escuridão, e sua mente perde o controle do seu corpo, ele só pode ver seu corpo
+                correndo e matando todos que estão no museu, e partindo para fora para encontrar mais vitimas, até que
+                os policiais chegam e obrigados o alvejam, matando-o. Em sua mente ele vê flashes, sua esposa e filha
+                rindo dele pois acabara de derrubar um balde de tinta em si mesmo, ao lembrar disso o maior
+                arrependimento é sentindo, pois sabe que perdeu tudo que fazia ser quem era, e morreu sem nada nem
+                ninguém.</p>
+            <button class="btn-proximo" data-proximo="0">Fim</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
